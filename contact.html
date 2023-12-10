@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Luiz Inácio Lula da Silva</title>
+  </head>
+  <body>
+    <header>
+      <h1>Luiz Inácio Lula da Silva</h1>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <div class="subnav">
+          <button class="subnavbtn">
+            Media<i class="fa fa-caret-down"></i>
+          </button>
+          <div class="subnav-content">
+            <a href="gallery.html">Gallery</a>
+            <a href="video.html">Video</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="contact_main">
+      <h2>Contact</h2>
+      <form action="">
+        <div>
+          <label for="name" class="required">Name</label>
+          <input type="text" id="name" name="name" required autofocus />
+        </div>
+
+        <div>
+          <label for="email" class="required">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div>
+          <label for="phone" class="required">Phone</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+
+        <fieldset>
+          <legend class="required">How do you prefer to be contacted?</legend>
+          <input type="radio" id="1" name="sec" value="1" required checked />
+          <label for="1">Email</label><br />
+          <input type="radio" id="2" name="sec" value="2" />
+          <label for="2">Call</label><br />
+          <input type="radio" id="3" name="sec" value="3" />
+          <label for="3">Menssage</label><br />
+        </fieldset>
+        <br />
+        <div>
+          <label for="menssage" class="required">Menssage</label><br />
+          <textarea name="menssage" id="menssage" rows="4" required> </textarea>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="human"
+            name="human"
+            value="true"
+            required
+          />
+          <label for="human" class="required"> I am a human</label>
+        </div>
+
+        <div>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </form>
+    </main>
+    <aside>
+      <h2>Additional Information</h2>
+      <ul>
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"
+            target="_blank"
+            >Wikipedia</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.britannica.com/biography/Luiz-Inacio-Lula-da-Silva"
+            target="_blank"
+            >Britannica</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.gov.br/planalto/en/composition/biography-president-of-the-republic"
+            target="_blank"
+            >Brazil government site</a
+          >
+        </li>
+      </ul>
+    </aside>
+    <footer>
+      <p>&copy; Ana Cericatto 2023</p>
+    </footer>
+  </body>
+</html>
